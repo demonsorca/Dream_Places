@@ -1,0 +1,182 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Final Project</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-image: linear-gradient(to right, lightblue, lightgreen);
+      margin: 0px;
+    }
+
+    .h1 {
+      font-size: 45px;
+      text-align: center;
+      text-shadow: 0 0 5px red;
+      font-style: :italic;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition-duration: 0.1s;
+    }
+
+    li a:hover {
+      background-color: lightblue;
+      font-style: italic;
+      color: black;
+
+    }
+
+    .gallary {
+      width: 100%;
+      padding-left: 80px;
+      
+    }
+
+    .image:hover {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .image:hover {
+      border-radius: 1px;
+      box-shadow: 0 0 20px black;
+    }
+
+    .footer {
+      background-color: blueviolet;
+      margin-left: 0px;
+      padding: 30px;
+      width: 100%;
+    }
+    
+  </style>
+
+
+</head>
+
+<body>
+  <!--Navigation--->
+  <div>
+    <ul>
+      <li><a herf="#">Home</a></li>
+      <li><a href="#gallary"> Gallery</a></li>
+      <li><a href="Register.html">Content </a></li>
+      <li style="float: right;"><a href="pageabout.html">About </a></li>
+      <li><a href="information.html"> Information</a></li>
+    </ul>
+
+  </div>
+
+  <!--headerImage--->
+  <div>
+    <img style="width: 100%;height:80%;box-shadow: 0 0 5px red;"
+      src="https://miro.medium.com/max/14552/1*kfoZJqoU5IDWz-u7ZclDtQ.jpeg" alt="Travel Around The World">
+    
+  </div>
+
+  <!--Gallary-->
+  <div>
+    <h1 class="h1" >Dream Trip</h1>
+
+  </div>
+
+  <div >
+    <table class="gallary">
+      <tr>
+        <td><img class="image" style="width:420; height:300"
+            src="https://static.toiimg.com/thumb/75601271/oie_714028Gm1HMscL.jpg?width=1200&height=900"
+			alt="Kedarnath Temple"></td>
+			
+        <td><img class="image" style="width:420; height:300"
+            src="https://cdn.kimkim.com/files/a/images/95644d6c88778789f65418180e66114d96f55844/big-eb1614f8c315c38ffe508847d4978d3f.jpg"
+            alt="Lake Tekapo"> </td>
+        <td><img class="image" style="width:420; height:300"
+            src="https://images.adsttc.com/media/images/5d44/14fa/284d/d1fd/3a00/003d/large_jpg/eiffel-tower-in-paris-151-medium.jpg?1564742900"
+            alt="Eiffel Tower"> </td>
+	    </tr>
+      <tr>
+		    <td style="text-align: center;"><h3>Kedarnath Temple</h3></td>
+		    <td style="text-align: center;"><h3>Lake Tekapo</h3></td>
+	  	  <td style="text-align: center;"><h3>Eiffel Tower</h3></td>
+  	  <tr>
+	    <tr>
+        <td> <img class="image" style="width:420; height:300"
+            src="http://www.oceansplasticleanup.com/Biodiversity/Pictures_Biodiversity_Biological_Convention_COPs/Great_Reefs_Barrier_The_Corals_Fish.jpg"
+			alt="Great Barrier Reef"></td>
+			
+        <td><img class="image" style="width:420; height:300"
+            src="https://www.hawaiimagazine.com/sites/default/files/field/image/Black-Sand-Flattened-copy.jpg"
+            alt="Waianapanapa State Park"> </td>
+        <td><img class="image" style="width:420; height:300"
+            src="https://www.touropia.com/gfx/d/best-greek-islands/crete.jpg?v=1"
+            alt="Crete"> </td>
+      </tr>
+      <tr>
+        <tr>
+          <td style="text-align: center;"><h3>Great Barrier Reef</h3></td>
+          <td style="text-align: center;"><h3>Waianapanapa State Park</h3></td>
+          <td style="text-align: center;"><h3>Crete</h3></td>
+        <tr>
+      </tr>
+      <td><img class="image" style="width:420; height:300"
+          src="https://www.touropia.com/gfx/d/best-places-to-visit-in-greece/athens.jpg?v=399e18529c5456797ecf53381738d8dc"
+          alt="Athens"> </td>
+      <td><img class="image" style="width:420; height:300"
+          src="https://www.planetware.com/photos-large/CH/switzerland-matterhorn.jpg"
+          alt="The Matterhorn"> </td>
+      <td><img class="image" style="width:420; height:300"
+          src="https://cdn.kimkim.com/files/a/images/90de00f17753a8c23857d1bfd7334f436c66ce8c/big-61a3b668024587b70e78dab51c4c579a.jpg"
+          alt="Tromsø Norway">
+      </tr>
+      <tr>
+        <tr>
+          <td style="text-align: center;"><h3>Athens</h3></td>
+          <td style="text-align: center;"><h3>The Matterhorn</h3></td>
+          <td style="text-align: center;"><h3>Tromsø Norway</h3></td>
+        <tr>
+      </tr>
+    </table>
+
+  </div>
+
+  <!--Footer-->
+  <div>
+    <footer>
+      <h1 style="text-align: center;">Designe by Vipin</h1>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
+<!--end page-->
+
+
+
+
+
+
